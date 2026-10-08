@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Vizsga.Console;
+using Vizsga.ConsoleApp;
 using Vizsga.LIB.MODEL;
 
 
@@ -59,9 +60,17 @@ else
     Console.WriteLine();
 }
 
+/*** 4. Statisztika ***/
+// 2. feladat:
+Console.ForegroundColor = ConsoleColor.Yellow;
+await Statistics.Task2FilmCountAsync();
+
+// 3. feladat:
+await Statistics.Task3LongFilmCountAsync();
+
 Console.ReadKey();
 
-/*** 4. Adatbázis ellenőrzés ***/
+/*** 3.1. Adatbázis ellenőrzés ***/
 /*
 1. Partial class Program -> DatabaseCreated property
 2. Program.cs -> DatabaseCreated = context.Database.EnsureCreated();
