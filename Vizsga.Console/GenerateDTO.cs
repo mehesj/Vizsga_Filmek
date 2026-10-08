@@ -9,7 +9,7 @@ using Vizsga.LIB.MODEL;
 
 namespace Vizsga.Console
 {
-    internal class GenerateDTO
+    internal class GenerateDTO /*** 2. Hogyantöltjük fel a C# objektumokat***/
     {
         /// <summary>
         /// Kategoria objektumok generálása a CSV fájl adatai alapján.

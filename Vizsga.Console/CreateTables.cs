@@ -12,6 +12,32 @@ namespace Vizsga.Console
     internal class CreateTables
     {
         private static readonly VizsgaApiClient apiClient = new();
+
+        internal static async Task<bool> DatabaseCreatedAsync()
+        {
+            return await apiClient.Client.GetFromJsonAsync<bool>("api/Database/created");
+        }
+
+
+        /**** Ha az API lassan indulna ****
+         * internal static async Task<bool> DatabaseCreatedAsync()
+{
+     while (true)
+    {
+        try
+        {
+            return await apiClient.Client.GetFromJsonAsync<bool>("api/Database/created");
+        }
+        catch (HttpRequestException)
+        {
+            Console.WriteLine("Várakozás az API indulására...");
+            await Task.Delay(500);
+        }
+    }
+}
+         */
+
+
         internal static async Task CreateTipusAsync(List<Tipus> tipusok)
         {
             foreach (var tipus in tipusok)

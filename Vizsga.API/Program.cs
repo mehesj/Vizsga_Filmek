@@ -20,7 +20,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope()) // Szál a feladat végrehajtásához, a scope biztosítja, hogy a DbContext példány élettartama a scope-hoz legyen kötve.
 {
     var context = scope.ServiceProvider.GetRequiredService<VizsgaDbContext>(); // Kapcsolat az adatbázishoz
-    context.Database.EnsureCreated(); // CSAK ŐSFELTÖLTÉS ESETÉN, ha már van adatbázis, akkor nem csinál semmit. Ha nincs, akkor létrehozza az adatbázist a modellek alapján.
+    DatabaseCreated =context.Database.EnsureCreated(); // CSAK ŐSFELTÖLTÉS ESETÉN, ha már van adatbázis, akkor nem csinál semmit. Ha nincs, akkor létrehozza az adatbázist a modellek alapján.
 }
 
 // Configure the HTTP request pipeline.
@@ -37,3 +37,11 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+/// <summary>
+/// A Program osztály a fő belépési pont az alkalmazás számára, és tartalmazza az adatbázis létrehozásának állapotát jelző tulajdonságot.
+/// </summary>
+public partial class Program
+{
+    public static bool DatabaseCreated { get; set; }
+}
