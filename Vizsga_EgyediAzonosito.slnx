@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Vizsga.API/Vizsga.API.csproj" Id="cd648552-79fa-4ba0-9d3f-23521bd4a717" />
+  <Project Path="Vizsga.Console/Vizsga.Console.csproj" />
+  <Project Path="Vizsga.LIB/Vizsga.LIB.csproj" />
+</Solution>

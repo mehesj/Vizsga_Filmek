@@ -1,0 +1,21 @@
+Cím	Hossz	Típus	Kategória	Kezdő dátum	Vetítési idő
+A szerelem ideje	107	Dráma, Romantikus	2D	2024.12.10	14:00,16:00,18:00
+Bekövet a halál	95	Horror, Thriller	2D	2024.11.23	14:00,16:00,18:00,20:00
+Maria	120	Dráma, Életrajzi	2D	2024.11.30	14:00,16:00,18:00,20:00
+Nosferatu	110	Horror, Dráma	2D	2024.12.24	14:00,16:00,18:00,20:00
+Vilma és a férfiak	98	Vígjáték, Dráma	3D	2024.12.12	14:00,16:00,18:00,20:00
+Woodwalkers	102	Családi, Fantasy	2D	2025.01.02	14:00,16:00,18:00,20:00
+Miénk lesz a holnap	115	Dráma, Romantikus	2D	2024.12.11	14:00,16:00,18:00,20:00
+A nap, amikor apu megmenti a karácsonyt	90	Családi, Vígjáték	2D	2024.12.22	14:00,16:00,18:00,20:00
+Better Man: Robbie Williams	128	Életrajzi, Dráma	3D	2025.01.10	14:00,18:00,20:00
+Parthenopé – Nápoly szépe	105	Dráma, Romantikus	2D	2025.01.16	14:00,16:00,18:00,20:00
+Sonic, a sündisznó 3	100	Animáció, Családi	3D	2024.12.26	14:00,16:00,18:00,20:00
+Sütimanók - Szupersipka-küldetés	88	Animáció, Családi	2D	2024.11.28	14:00,16:00,18:00,20:00
+Kincs a múltból	95	Dráma, Történelmi	2D	2024.12.10	14:00,16:00,18:00,20:00
+Derült égből karácsony	92	Vígjáték, Családi	2D	2024.12.18	16:00,18:00,20:00
+A kedvenc sütim	85	Dráma, Vígjáték	2D	2024.12.14	14:00,16:00,18:00,20:00
+Karácsonyi állatmesék	80	Animáció, Családi	2D	2024.12.28	14:00,16:00,18:00,20:00
+Szeretetreméltók	110	Dráma	2D	2025.02.01	16:00,18:00,20:00
+Veszettek	102	Dráma, Thriller	2D	2025.02.10	14:00,18:00,20:00
+Mufasa: Az oroszlánkirály	112	Dráma, Családi	2D	2024.12.13	14:00,16:00,18:00
+Váratlan dallamok	118	Dráma, Zenés	2D	2025.02.19	14:00,16:00,18:00
